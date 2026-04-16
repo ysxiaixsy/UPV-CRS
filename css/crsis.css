@@ -5520,4 +5520,14 @@ a:visited.menumaroon8	{
     cursor: pointer;
     font-weight: bold;
 }
+#captcha-stage p {
+    user-select: none; /* Prevents users from highlighting and copying the math/code */
+    cursor: default;
+}
+
+#captcha-input {
+    border: 2px solid #333;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
 /*--------------- */
